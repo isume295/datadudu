@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    height:  auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-buttons {
+    gap: 10px;
+}
+
+.btn {
+    padding: 25px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-contact{
+    background-color: white;
+    color: black;
+    border: bisque;
+}
+
+.btn-login {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* end of nav bar style */
+
+.hero-container {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    width: 80%;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
